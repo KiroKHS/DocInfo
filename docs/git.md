@@ -66,4 +66,4 @@ Informacion de la rama
 - ****
 
 ## vover 
-`git reset [codigo comit]`
+`git reset --hard [codigo comit]`
