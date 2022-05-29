@@ -1,1 +1,9 @@
-site_name: My Docs
+site_name: Documentacion Personal
+
+nav:
+  - Inicio: 'index.md'
+  - Videos: 'videos.md'
+  - linux: 'linux.md'
+  - Git : 'git.md'
+
+theme: readthedocs
