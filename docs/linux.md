@@ -4,19 +4,19 @@
 
 - [Debian](https://www.debian.org): mejor distro para personalizar y usar en el trabajo
 - [Ubuntu](https://ubuntu.com/download): si es la primera vez que usa linux bueno para uso de usuario y trabajo.
-- [linux lite](https://www.linuxliteos.com): en caso de que quieras un linux que consuma poco pero basado en DEBIAN
+- [linux lite](https://www.linuxliteos.com): en caso de que quieras un linux que consuma poco pero basado en DEBIAN.
 - [Kali](https://www.kali.org): para haking y petesting para uso de usuario no es recomendado
-- [parrot](https://www.parrotsec.org): para haking o uso de usuario, tiene una version para uso de escritorio o trabajo
-- [Axyl os](https://axyl-os.github.io): Mejor distro de tiling que he visto para trabajo y otros (contruido en arch linux)
+- [parrot](https://www.parrotsec.org): para haking o uso de usuario, tiene una version para uso de escritorio o trabajo.
+- [Axyl os](https://axyl-os.github.io): Mejor distro de tiling que he visto para trabajo y otros (contruido en arch linux).
 
 ## Comandos basicos
-Aqui miraras comandos mas simples pero utiles
+Aqui miraras comandos mas simples pero utiles.
 ### Comandos para Moverte en terminal
 Estos comandos son los mas utilizados al momento de moverte en la terminal.
 
 Comando| Nota
 ---|---
-`pwd`|Eetorna la direcion donde estas en la terminal
+`pwd`|Retorna la direcion donde estas en la terminal
 `cd [direccion]`| Para moverte de carpeta
 `ls` | Archivos dentro de la carpeta
 `ll` | Igual que el **ls** pero te retorna como lista, que es igual a `ls -l` 
