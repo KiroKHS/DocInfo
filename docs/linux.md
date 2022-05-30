@@ -1,6 +1,6 @@
 # linux
 
-##Distros Recomendadas
+## Distros Recomendadas
 
 - [Debian](https://www.debian.org): mejor distro para personalizar y usar en el trabajo
 - [Ubuntu](https://ubuntu.com/download): si es la primera vez que usa linux bueno para uso de usuario y trabajo.
@@ -23,7 +23,7 @@ Comando| Nota
 
 
 ### copiar archivo o carpeta
-Sintaxyis: `cp [archivo a copiar] [ruta a pegar] `
+Sintaxis: `cp [archivo a copiar] [ruta a pegar] `
 
 Ejemplo: `cp ~/texto.txt ~/Documents/` 
 
@@ -35,7 +35,7 @@ Sintaxis: `mv [direcion archivo] [ruta nueva]`
 
 La logica es la misma que muchos otros comandos empiesas con llamarlo y darle el nombre o hubicacion del archivo.
 
-Sintaxis: `rm [archivo]` esta sintaxy borra archivos simples pero no carpetas para borrar una carpeta nesesitas agregar el parametro **-R** para borrar directorios o carpetas, pero te preguntara por cada archivo.
+Sintaxis: `rm [archivo]` esta sintaxi borra archivos simples pero no carpetas para borrar una carpeta nesesitas agregar el parametro **-R** para borrar directorios o carpetas, pero te preguntara por cada archivo.
 Si quieres borrar sin que te pregunte usa **-Rf** que fuerza o ignora la pregunta de ¿estas seguro?, Quedaria asi `rm -Rf [archivo]`
 
 ## Archivos comprimidos
