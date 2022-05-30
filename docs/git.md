@@ -1,9 +1,14 @@
-# Git como usarlo
+# Git que es
+
+git es un controlador de versiones que mas utlizado en todo el mundo. en otras palabras con git podemos tener un historia de todo el codigo que hemos desarrollado en nuetro sotfware.
+
 existen 2 tipos de repositorio por decirlo se una manera
 
 - **local**: en este los cambios se guardaran solo en el equipo. 
 - **online**: este tipo trabaja junto con el local, el cual guarda los cambios locales y permite compartirlo con otros usuarios.
+## Que es mejor CLI o GUI
 
+la interfas CLI que es la que veremos aqui es mucho mas potente de lo que sera cualquier etorno GUI ya que por lo general estan bastante limitadas. ademas que desde el CLI siempre sera igual sin importar el sitema operativo que uses.
 
 ## Crear repositorio local
 
@@ -15,6 +20,22 @@ de la capeta con tu terminal de preferencia y ejecutar el siguiente codigo
 este creara un repositorio local
 la evidencia de que funcione es que 
 aparesca una carpeta oculta con el nombre *.git*
+## Configurar GIT
+
+```zsh
+# configuraciones de usuario
+git config --global user.name "[nombre]"
+git config --global user.email [Correo]
+# editor de codigo predeterminado
+git config --global core.editor "code --wait"
+git config --gobal -e
+#linux/mac = input ; windows= true
+git config --global core.autocrlf [input/true]
+
+```
+
+
+
 ## Guardar cambios local
 
 cuando generas un repositorio o haces un 

@@ -67,12 +67,12 @@ nav:
 Como se puede ver al crear un indice tienes que vincularlo a un documento de la carpeta docs
 el mkdocs agarra por defaut los archivo de esa carpeta por lo que solo tienes que mensionarlos
 ### Sub indices
-los sub indices son los titulos secundarios del documento **Markdown** por lo que al usar # que es igual al `<h1>` del HTML5 el primero es el titulo cada # es como un 1 so colocas ## seria `<h2>` y lo mismo con `<h3>`.
+los sub indices son los titulos secundarios del documento **Markdown** por lo que al usar # que es igual al `<h1>` del HTML5 el primero es el titulo cada  colocas ## seria `<h2>` y lo mismo con `<h3>`.
 
 ## Subir a Servidor
 
 Una forma facil que encontre para subirla al servidor o para tener un modelo html es usar el comando `build`. El cual crea una carpeta llamada **site** en la que te guardara html, js, css y img de forma ordenada y listo para subir.
 
-``mkdocs build`
+`mkdocs build`
 
 Al ya tener tu documento solo tendrias que subirlo en tu hosting ya si quieres usando [filezilla](https://filezilla-project.org) o cualquier metodo que mas te acomode.

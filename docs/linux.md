@@ -23,7 +23,7 @@ Comando| Nota
 
 
 ### copiar archivo o carpeta
-Sintaxyis: `cp [archivo a copiar] [ruta a pegar] `
+Sintaxis: `cp [archivo a copiar] [ruta a pegar] `
 
 Ejemplo: `cp ~/texto.txt ~/Documents/` 
 
@@ -39,7 +39,7 @@ Sintaxis: `rm [archivo]` esta sintaxy borra archivos simples pero no carpetas pa
 Si quieres borrar sin que te pregunte usa **-Rf** que fuerza o ignora la pregunta de ¿estas seguro?, Quedaria asi `rm -Rf [archivo]`
 
 ## Archivos comprimidos
-Para descomprimir archivos necesitas algunas herramientas como unzip o unrar como tambien el comando ``tar``, estos tendras que intalarlos si esque no estan. la instalacion depende de tu distro
+Para descomprimir archivos necesitas algunas herramientas como unzip o unrar como tambien el comando `tar`, estos tendras que intalarlos si esque no estan. la instalacion depende de tu distro
 ### Descomprimir
 Una recomendacion es usar lo mas posible archivos zip ya que estos se pueden extraer de forma facil tanto en windows como en linux.
 
