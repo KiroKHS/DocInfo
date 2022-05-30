@@ -2,8 +2,8 @@ site_name: Documentacion Personal
 
 nav:
   - Inicio: 'index.md'
-  - Videos: 'videos.md'
-  - linux: 'linux.md'
+  - Generar Documentacion Web: 'mkdocs.md'
+  - Linux: 'linux.md'
   - Git : 'git.md'
 
 theme: readthedocs

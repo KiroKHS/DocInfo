@@ -12,41 +12,40 @@
 ## Comandos basicos
 Aqui miraras comandos mas simples pero utiles
 ### Comandos para Moverte en terminal
-estos comandos son los mas utilizados al momento de moverte en la terminal.
+Estos comandos son los mas utilizados al momento de moverte en la terminal.
 
-comando| nota
+Comando| Nota
 ---|---
-`pwd`|retorna la direcion donde estas en la terminal
-`cd [direccion]`| para moverte de carpeta
-`ls` | archivos dentro de la carpeta
-`ll` | igual que el **ls** pero te retorna como lista, que es igual a `ls -l` 
+`pwd`|Eetorna la direcion donde estas en la terminal
+`cd [direccion]`| Para moverte de carpeta
+`ls` | Archivos dentro de la carpeta
+`ll` | Igual que el **ls** pero te retorna como lista, que es igual a `ls -l` 
 
 
 ### copiar archivo o carpeta
-sintaxy: `cp [archivo a copiar] [ruta a pegar] `
+Sintaxyis: `cp [archivo a copiar] [ruta a pegar] `
 
-ejemplo: `cp ~/texto.txt ~/Documents/` 
+Ejemplo: `cp ~/texto.txt ~/Documents/` 
 
-con esto se copia el **texto.txt** ala carpeta **Documents**
+Con esto se copia el **texto.txt** ala carpeta **Documents**
 ### Mover archivo o carpeta
-Sintaxy: `mv [direcion archivo] [ruta nueva]`
+Sintaxis: `mv [direcion archivo] [ruta nueva]`
 ### Eliminar
-**Cuidado con el siguiente comando borrar en terminal es permanente**, no existe papelera en terminal,
-mucho cuidado.
+**Cuidado con el siguiente comando borrar en terminal es permanente**, no existe papelera en terminal, mucho cuidado.
 
-la logica es la misma que muchos otros comandos empiesas con llamarlo y darle el nombre o hubicacion del archivo.
+La logica es la misma que muchos otros comandos empiesas con llamarlo y darle el nombre o hubicacion del archivo.
 
-sintaxy: `rm [archivo]` esta sintaxy borra archivos simples pero no carpetas para borrar una carpeta nesesitas agregar el parametro **-R** para borrar directorios o carpetas, pero te preguntara por cada archivo.
-si quieres borrar sin que te pregunte usa **-Rf** que fuerza o ignora la pregunta de ¿estas seguro?, Quedaria asi `rm -Rf [archivo]`
+Sintaxis: `rm [archivo]` esta sintaxy borra archivos simples pero no carpetas para borrar una carpeta nesesitas agregar el parametro **-R** para borrar directorios o carpetas, pero te preguntara por cada archivo.
+Si quieres borrar sin que te pregunte usa **-Rf** que fuerza o ignora la pregunta de ¿estas seguro?, Quedaria asi `rm -Rf [archivo]`
 
-## Archivoz comprimidos
-para descomprimir archivos necesitas algunas herramientas como unzip o unrar como tambien el comando tar, estos tendras que intalarlos si esque no estan. la instalacion depende de tu distro
-### descomprimir
-una recomendacion es usar lo mas posible archivos zip ya que estos se pueden extraer de forma facil tanto en windows como en linux.
+## Archivos comprimidos
+Para descomprimir archivos necesitas algunas herramientas como unzip o unrar como tambien el comando ``tar``, estos tendras que intalarlos si esque no estan. la instalacion depende de tu distro
+### Descomprimir
+Una recomendacion es usar lo mas posible archivos zip ya que estos se pueden extraer de forma facil tanto en windows como en linux.
 
-archivo|paquete |normal| con clave
+Archivo|Paquete |Normal| Con Clave
 --|--|--|--
 .zip| unzip| `unzip [archivo]`| `unzip -p [password] [archivo]`
 .rar| unrar| `unrar x [archivo] [extraer en]` | `unzip -p [password] [archivo] [extraer en]`
-.tar.bz2| tar| `tar -xvf [archivo]`| no encontrado aun
+.tar.bz2| tar| `tar -xvf [archivo]`| No encontrado aun
 
