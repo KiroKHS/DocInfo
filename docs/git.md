@@ -78,13 +78,20 @@ Ejemplo que el nombre de la conexion sea origin: `git remote remove origin`
 `git push [conexion] [rama]`
 
 este subira todos los commit al archivo origin
+
+### Volver a un commit
+`git reset --hard [codigo comit]`
+
 ## Estado y informacion de ramas
 
 Informacion de la rama
 
 - **Historia del repositorio:** `git log --all --decorate --oneline --graph`
 - **Estado del local:** `git status`
-- ****
 
-## vover 
-`git reset --hard [codigo comit]`
+## Clonar repositorio
+
+Para clonar nesesitas la url del repositorio y copiara todo los datos del repositorio eso incluye archivos antiguos o antes subidos, para tener todos los commit hechos. Este archivo se clona en la carpeta o direccion en la que estes alojado.
+
+`git clone [url]`
+
