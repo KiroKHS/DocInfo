@@ -39,13 +39,28 @@ Sintaxis: `rm [archivo]` esta sintaxi borra archivos simples pero no carpetas pa
 Si quieres borrar sin que te pregunte usa **-Rf** que fuerza o ignora la pregunta de ¿estas seguro?, Quedaria asi `rm -Rf [archivo]`
 
 ## Archivos comprimidos
-Para descomprimir archivos necesitas algunas herramientas como unzip o unrar como tambien el comando `tar`, estos tendras que intalarlos si esque no estan. la instalacion depende de tu distro
+Para descomprimir archivos necesitas algunas herramientas como unzip o unrar como tambien el comando `tar`, estos tendras que intalarlos si esque no estan. la instalacion depende de tu distro. Una recomendacion de archivos comprimidos es que manipules lo mas posible archivos **zip** ya que son los mas faciles de manipular y estan disponible tanto en windows como en linux, asi no te tienes que preocupar que no se pueda descomrpimir en otro equipo.
+
+### Comprimir
+Para comprimir archivos en linux es necesario que tengas instalado al menos un comprimidor de archivo. aqui te mostrare algunos comandos segun el tipo de archivo, hacerlo normal y con clave.
+
+Archivo|Normal|Con Clave
+--|--|--
+zip|`zip [nombre].zip [archivo]`| 
+rar|`rar -a [nombre].rar [archivo]`|
+tar.gz|`tar -zcvf [nombre].tar.gz [archivo]`
+.gz| `gzip -[1-9] [archivo no directorio]`
+
+
+El parametro de gzip [1-9] es el nivel de seguridad que quieres
+
 ### Descomprimir
-Una recomendacion es usar lo mas posible archivos zip ya que estos se pueden extraer de forma facil tanto en windows como en linux.
+Descomprimir archivos es sencillo solo tienes que saber en donde esta tu archivo y si tiene clave.
 
 Archivo|Paquete |Normal| Con Clave
 --|--|--|--
 .zip| unzip| `unzip [archivo]`| `unzip -p [password] [archivo]`
-.rar| unrar| `unrar x [archivo] [extraer en]` | `unzip -p [password] [archivo] [extraer en]`
-.tar.bz2| tar| `tar -xvf [archivo]`| No encontrado aun
+.rar| unrar| `unrar x [archivo] [extraer]` | `unzip -p [password] [archivo] [extraer en]`
+.tar.bz| tar| `tar -xvf [archivo]`| No encontrado aun
+
 
