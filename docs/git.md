@@ -95,3 +95,34 @@ Para clonar nesesitas la url del repositorio y copiara todo los datos del reposi
 
 `git clone [url]`
 
+## Manipular ramas
+
+Primero lo primero para saber que ramas tienes puede el siguiente comando
+
+`git branch` o  `git branch --list`
+
+de esta forma tendras un listado de toda tus ramas
+
+### Crear rama
+
+para que crear ramas, lo util de esas ramas es que te permiten modificarlas sin tener que modificar la rama principal haciendo que no arruines o alguien arruine la rama principal, de esta forma tu proyecto puede ser modificado de forma segura.
+
+`git branch [nombre]`
+
+### Cambiar nombre
+
+Aveces uno quiere cambiar el nombre de su rama, bueno la forma de hacerlo es la siguiente. 
+
+`git branch -m [Nuevo nombre]`
+
+**Pero recuerda que esta forma es para la rama en la que estas ubicado**
+
+### Eliminar rama
+Hay dos formas de borrar una rama la forzada y la normal, la diferencia radica en que una te deja borrar apesar de que no allas hecho una fusion, mientras que la otra no te deja si no fusionaste la rama.
+
+Normal|forzado
+--|--
+`git branch -d [rama]`|`git branch -D [rama]`
+
+### Enumerar ramas
+`git branch -a` este comando enumera todas las ramas remotas.
