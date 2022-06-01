@@ -63,4 +63,32 @@ Archivo|Paquete |Normal| Con Clave
 .rar| unrar| `unrar x [archivo] [extraer]` | `unzip -p [password] [archivo] [extraer en]`
 .tar.bz| tar| `tar -xvf [archivo]`| No encontrado aun
 
+## Crear archivos y carpetas
+si quieres crear un archivo o carpeta tienes que usar unos comandos especificos
+### crear archivo
+para crear un archivo tienes que ejecutar el comando `touch` el cual esta es la sintaxis
+
+`touch [archivo.extencion]`
+
+como puedes ver es un comando muy simple y sencillo  en el que colocas su nombre y la extencion, tambien puedes decir en que hubicacion quieres crear el archivo pero eso seria algo como esto `touch ~/documento/archivo.txt` de esta forma sin importar donde este crearia en esa ubicacion.
+
+### crear carpeta o directorio
+Para crear carpeta es simple tienes que usar el comando `mkdir` es muy parecido al comando anterior, en el que colocas despues solo el nombre de la carpeta, y como en el anterior tambien puedes usar el donde quieres que se cree la carpeta
+
+sintaxis: `mkdir [nombre]`
+
+ejemplo: `mkdir ~/documento/codigo` con este le digo que en la carpeta documento cree una carpeta con el nombre codigo
+
+## Guardar datos de un comando en archivo
+
+este es facil de usar y nada complejo de entender, para que sirve en primer lugar, hay casos en lo que quieres crear por ejemplo un archivo con unos datos ya inglesados o quieres guardar los datos que te retorna algun comando, para eso usaresmos los siguientes simbolos `>` y `>>`
+que serian lo siguiente.
+
+`>` | `>>`
+--|--
+guarda o remplaza los datos en un archivo| agrega los datos en un archivo
+
+un ejemplo seria querer guardar los datos de tu pc de ``neofetch`` para eso tendrias que usar la siguiente formula `neofetch > datopc.txt` con esto digo que quiero guardar los que me tire neofetch en un archivo llamado datopc.txt y de esta forma puedes guardar los datos de forma rapida.
+
+sintaxi: `[comando o dato] [>/>>] [nombre y extencion]`
 
