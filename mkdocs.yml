@@ -6,5 +6,5 @@ nav:
   - Linux: 'linux.md'
   - Git : 'git.md'
   - Terminal Herramientas: 'Heramientas.md'
-
+  - Instalar Qtile: 'qtile.md'
 theme: readthedocs
