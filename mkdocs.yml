@@ -7,4 +7,5 @@ nav:
   - Git : 'git.md'
   - Terminal Herramientas: 'Heramientas.md'
   - Instalar Qtile: 'qtile.md'
+  - Base De Datos: 'basedatos.md'
 theme: readthedocs
