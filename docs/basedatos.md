@@ -75,7 +75,7 @@ GRANT CREATE SESSION TO NNAVARRO;
 GRANT RESOURCE TO NNAVARRO;
 
 ````
---CREAR TABLAS
+## CREAR TABLAS
 ``` sql
 CREATE TABLE tbl_usuario(
     id_usuario NUMBER NOT NULL,
@@ -86,19 +86,20 @@ CREATE TABLE tbl_usuario(
     PRIMARY KEY (id_usuario)
 );
 ```
---CREAR SECUENCIAS
+## CREAR SECUENCIAS
 ```sql
 CREATE SEQUENCE seq_usuario START WITH 100
 INCREMENT BY 10;
 ```
---INSERCION DE DATOS CON SECUENCIAS
+## INSERCION DE DATOS CON SECUENCIAS
 ```sql
 INSERT INTO tbl_usuario VALUES(SEQ_USUARIO.nextval,20114257,'0','Alan','Brito');
 ```
 - **nextval**: siguiente valor
 - **currval**: actual valor
 
---USO DE TABLA DUAL
+## USO DE TABLA DUAL
+la tabla dual sirve para hacer muchos ejercicios y pruebas es una tabla que contiene un solo dato pero es lo mejor para experimentar
 ```sql
 SELECT
     SEQ_USUARIO.CURRVAL 
