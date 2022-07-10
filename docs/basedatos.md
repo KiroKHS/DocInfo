@@ -25,7 +25,7 @@ en este caso el sub dominio seria **api** y el dominio **navarrolabs**
 
 Como dato extra un **host** significa alfitrion.
 
-# TIPOS DE RETRICCIONES EN UNA TABLA
+## TIPOS DE RETRICCIONES EN UNA TABLA
 
 hay distintos tipos de retricciones que permiten definir reglas o condiciones en una tabla
 
@@ -38,7 +38,7 @@ hay distintos tipos de retricciones que permiten definir reglas o condiciones en
 algunos ya los abras visto al crear una tabla como el not null que es muy utilizado
 pero por ejemplo un chek permite crear reglas de negocio como que un sueldo no pueda ser inferior a un numero.
 
-## NDS native dynamic sql
+### NDS native dynamic sql
 
 es usar sql de forma dinamica e nque el que suas procedimiento que recive parametros
 
@@ -46,7 +46,7 @@ por ejemplo una funcion que te permite eliminar una tabla en la que te pide como
 de esta forma puedes ahorrar algunos trabajos como tambien evitar posible injecciones de datos. ya que no sabes como es el codigo
 pero si sabes cual es la funcion.
 
-## NOMBRES PARA UN ADMIN
+### NOMBRES PARA UN ADMIN
 
 por lo general un admin adquiere los siguientes nombres
 
@@ -57,12 +57,12 @@ por lo general un admin adquiere los siguientes nombres
 
 ROL es un conjunto de privilegios
 
-## roles general mente usado
+### roles general mente usado
 - **CONNECT** = crear sesiones, conectarse a usuarios , comunicacion
 - **RESOURCE** = acceder al espacio fisico, a las tablas y otros objetos
 
 
-# CREAR USUARIOS
+## CREAR USUARIOS
 ````sql
 --crear usuario
 CREATE USER NNAVARRO IDENTIFIED BY "12345"
@@ -75,7 +75,7 @@ GRANT CREATE SESSION TO NNAVARRO;
 GRANT RESOURCE TO NNAVARRO;
 
 ````
-## CREAR TABLAS
+### CREAR TABLAS
 ``` sql
 CREATE TABLE tbl_usuario(
     id_usuario NUMBER NOT NULL,
@@ -86,12 +86,12 @@ CREATE TABLE tbl_usuario(
     PRIMARY KEY (id_usuario)
 );
 ```
-## CREAR SECUENCIAS
+### CREAR SECUENCIAS
 ```sql
 CREATE SEQUENCE seq_usuario START WITH 100
 INCREMENT BY 10;
 ```
-## INSERCION DE DATOS CON SECUENCIAS
+### INSERCION DE DATOS CON SECUENCIAS
 ```sql
 INSERT INTO tbl_usuario VALUES(SEQ_USUARIO.nextval,20114257,'0','Alan','Brito');
 ```
@@ -106,29 +106,29 @@ SELECT
 FROM
     dual;
 ```	
-# SEGURIDAD
-## CONCEDER PRIVILEGIOS DE OBJETOS
+## SEGURIDAD
+### CONCEDER PRIVILEGIOS DE OBJETOS
 ``` sql
 GRANT SELECT ON IBILBAO.TBL_COMUNA TO NNAVARRO;
 GRANT DELETE ON IBILBAO.TBL_USUARIO TO NNAVARRO;
 GRANT UPDATE ON IBILBAO.TBL_USUARIO TO NNAVARRO;
 ```
-## CONCEDER PRIVILEGIOS DE SISTEMA
+### CONCEDER PRIVILEGIOS DE SISTEMA
 ```sql
 GRANT CREATE SESSION TO "IBILBAO";
 GRANT CREATE ANY TABLE TO NNAVARRO;
 
 ```
-## CONCEDER ROLES
+### CONCEDER ROLES
 ```sql
 GRANT CONNECT TO NNAVARRO;
 ```
 
-## REVOCAR PRIVILEGIOS DE OBJETOS
+### REVOCAR PRIVILEGIOS DE OBJETOS
 ```sql
 REVOKE SELECT ON IBILBAO.TBL_USUARIO FROM NNAVARRO;
 ```
-## REVOCAR PRIVILEGIOS DE SISTEMA
+### REVOCAR PRIVILEGIOS DE SISTEMA
 ```sql
 REVOKE CREATE ANY TABLE FROM NNAVARRO;
 ```
