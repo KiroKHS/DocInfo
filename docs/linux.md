@@ -92,3 +92,39 @@ un ejemplo seria querer guardar los datos de tu pc de ``neofetch`` para eso tend
 
 sintaxi: `[comando o dato] [>/>>] [nombre y extencion]`
 
+
+
+## Crear Ejecutable de appimagen o programas
+
+para crear esto necesitaras ir ala carpeta `$HOME/.local/share/applications/` 
+en esa carpeta tienes que crear un archivo.desktop
+
+esta seria la sintaxis de su creacion
+
+
+```desktop
+[Desktop Entry]
+Type=Application
+Name=RPCS3
+Comment=RPCS3
+Icon=/home/usuario/.images/rpcs3.png
+Exec=/home/usuario/AppImages/rpcs3.AppImage
+Terminal=false
+Catagories=Games
+```
+
+ahora si aparecera en arancadores de programas como rofi y dmenu.
+
+[Fuente de la informacion](https://www.reddit.com/r/linuxquestions/comments/f1909s/run_appimage_from_launcher/)
+
+
+
+
+
+
+
+
+
+
+
+
