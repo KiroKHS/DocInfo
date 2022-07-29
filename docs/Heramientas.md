@@ -19,6 +19,11 @@ Pero la forma mas simple de usarlo es: `youtube-dl [URL]`
 
 Despues de iniciara la descarga del video
 
+debo recordarles que tambien tiene una version gui
+
+[youtube-dl-gui](https://jely2002.github.io/youtube-dl-gui/)
+
+
 ## Instalar paquetes en windows facilmente
 
 [winstall](winstall.app) es una pagina que nos permite generar un script para pawershell o CMD para poder instalar de forma facil nuestros programas.
@@ -30,4 +35,15 @@ como por ejemplo que todos los pc de tu empleza tendran algunos programas que si
 
 |winstall| Paquetes
 |--|--|
-|![wininstall](image/wininstall.png)|![wininstallpaquetes](image/wininstallpacks.png) 
+|![wininstall](image/wininstall.png)|![wininstallpaquetes](image/wininstallpacks.png)
+
+## Buscador para programadores
+
+encontre un buscador que se enfoca en ayudar a los programadores a encontrar informacion de forma mas enfocada tambien tiene para otras areas pero en este caso sera el de  code
+
+[para ir ala pagina you](https://you.com/code)
+
+buscador | ejemplo
+--|--
+![youcode1](image/you1.png) | ![youcode2](image/you2.png)
+
